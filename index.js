@@ -6,9 +6,9 @@ const express = require("express");
 const app = express();
 
 app.use(express.json());
+require("./startup/cors")(app);
 require("./startup/config")();
 require("./startup/db")();
-require("./startup/cors")(app);
 require("./startup/validation")();
 require("./startup/routes")(app);
 

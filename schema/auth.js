@@ -15,6 +15,10 @@ const register_schema = {
     password,
 }
 
+const reset_password_schema = {
+    email
+}
+
 const set_password_schema = {
     password,
 }
@@ -22,6 +26,7 @@ const set_password_schema = {
 const auth = {
     login_schema,
     register_schema,
+    reset_password_schema,
     set_password_schema,
 }
 

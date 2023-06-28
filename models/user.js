@@ -7,6 +7,7 @@ const user = new mongoose.Schema({
     email: { type: String, minLength: 4, maxLength: 50, required: true, unique: true },
     first_name: { type: String, minLength: 5, maxLength: 50 },
     last_name: { type: String, minLength: 5, maxLength: 50 },
+    is_verified: { type: Boolean, default: false },
     password: { type: String, minlength: 8, maxLength: 1024, required: true },
     username: { type: String, minLength: 4, maxLength: 50, required: true, unique: true },
 });

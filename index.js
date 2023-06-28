@@ -15,6 +15,6 @@ require("./startup/routes")(app);
 app.use(error);
 
 const port = process.env.PORT || 4000;
-app.listen(()=> {
+app.listen(port, ()=> {
     console.log("now listening at port", port);
 });

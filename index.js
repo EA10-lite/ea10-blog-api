@@ -1,6 +1,7 @@
 require("dotenv").config();
 require("express-async-errors");
 
+const error = require("./middlewares/error");
 const express = require("express");
 const app = express();
 
@@ -10,6 +11,8 @@ require("./startup/db")();
 require("./startup/cors")(app);
 require("./startup/validation")();
 require("./startup/routes")(app);
+
+app.use(error);
 
 const port = process.env.PORT || 4000;
 app.listen(()=> {

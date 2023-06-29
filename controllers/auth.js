@@ -1,7 +1,8 @@
 const { User } = require("../models/user");
 const { hash_password, verify_password } = require("../utils/hashing");
-const { sendMail } = require("../utils/transport");
+const transport = require("../utils/transport");
 const _ = require("lodash");
+const jwt = require("jsonwebtoken");
 
 const login = async(req, res)=> {
     const user = await User.findOne({ username: req.body.username });
@@ -24,7 +25,6 @@ const register = async(req, res)=> {
 
     user = new User({ ...req.body });
     user.password = await hash_password(user.password);
-    await user.save();
 
     // send verification mail
     const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET_KEY, { expiresIn: '1h'});
@@ -35,7 +35,8 @@ const register = async(req, res)=> {
         html: `<p>Please click <a href="http://localhost:3000/account-verify/${token}">here</a> to verify your account.</p>`,
     };
 
-    await sendMail(mail_options);
+    await transport.sendMail(mail_options);
+    await user.save();
 
     res.status(201).send({
         data: _.pick(user, ['email', 'username']),
@@ -60,7 +61,13 @@ const reset_password = async(req, res)=> {
         html: `<p>Please click <a href="http://localhost:3000/reset_password/${token}">here</a> to reset password. </p>`,
     };
 
-    await sendMail(mail_options);
+    await transport.sendMail(mail_options);
+
+    res.status(200).send({
+        data: null,
+        message: "Password reset link sent to your email.",
+        success: true
+    })
 };
 
 const set_new_password = async(req, res)=> { 

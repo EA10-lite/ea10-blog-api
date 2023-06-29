@@ -1,0 +1,698 @@
+{
+  error: {
+    error: [Error: ENOENT: no such file or directory, open 'C:\Users\Chris\Desktop\Personal_Projects\assets\img1.jpg'] {
+      errno: -4058,
+      code: 'ENOENT',
+      syscall: 'open',
+      path: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\assets\\img1.jpg'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:31:05 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 4320,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 113762304,
+      heapTotal: 83181568,
+      heapUsed: 46909912,
+      external: 45158339,
+      arrayBuffers: 36212511
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 438853 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:31:05'
+}
+{
+  error: {
+    error: [Error: ENOENT: no such file or directory, open 'C:\Users\Chris\Desktop\Personal_Projects\blog-app\blog_app\assets\img1.jpg'] {
+      errno: -4058,
+      code: 'ENOENT',
+      syscall: 'open',
+      path: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\blog_app\\assets\\img1.jpg'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:31:39 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 8308,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 113479680,
+      heapTotal: 82919424,
+      heapUsed: 47035288,
+      external: 45158347,
+      arrayBuffers: 36221967
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 438887 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:31:39'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:45:00 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 4304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 114491392,
+      heapTotal: 84230144,
+      heapUsed: 47121496,
+      external: 37178845,
+      arrayBuffers: 36222040
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 439689 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:45:00'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:45:00 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 4304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 115376128,
+      heapTotal: 84230144,
+      heapUsed: 47604856,
+      external: 37180263,
+      arrayBuffers: 36223418
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 439689 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:45:00'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:54:17 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11620,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 113770496,
+      heapTotal: 84754432,
+      heapUsed: 53601824,
+      external: 42757081,
+      arrayBuffers: 36933412
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440245 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:54:17'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:54:17 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11620,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 115085312,
+      heapTotal: 85016576,
+      heapUsed: 54158568,
+      external: 42757499,
+      arrayBuffers: 36933790
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440245 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:54:17'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:59:21 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11936,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 114262016,
+      heapTotal: 85016576,
+      heapUsed: 53753168,
+      external: 43155456,
+      arrayBuffers: 37291413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440549 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:59:21'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Wed Jun 28 2023 23:59:21 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11936,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 115449856,
+      heapTotal: 85016576,
+      heapUsed: 54077832,
+      external: 43165071,
+      arrayBuffers: 37300988
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440550 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:59:21'
+}
+{
+  error: NodeError: write after end
+      at writeAfterEnd (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_writable.js:264:12)
+      at PassThrough.Writable.write (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_writable.js:300:21)
+      at File.log (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\winston\lib\winston\transports\file.js:190:34)
+      at ExceptionStream._write (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\winston\lib\winston\exception-stream.js:48:29)
+      at doWrite (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+      at writeOrBuffer (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+      at DerivedLogger.ondata (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+      at DerivedLogger.emit (node:events:402:35)
+      at addChunk (C:\Users\Chris\Desktop\Personal_Projects\blog-app\node_modules\readable-stream\lib\_stream_readable.js:279:12),
+  level: 'error',
+  message: 'uncaughtException: write after end\n' +
+    'Error: write after end\n' +
+    '    at writeAfterEnd (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:264:12)\n' +
+    '    at PassThrough.Writable.write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:300:21)\n' +
+    '    at File.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\transports\\file.js:190:34)\n' +
+    '    at ExceptionStream._write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\exception-stream.js:48:29)\n' +
+    '    at doWrite (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n' +
+    '    at DerivedLogger.ondata (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n' +
+    '    at DerivedLogger.emit (node:events:402:35)\n' +
+    '    at addChunk (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)',
+  stack: 'Error: write after end\n' +
+    '    at writeAfterEnd (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:264:12)\n' +
+    '    at PassThrough.Writable.write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:300:21)\n' +
+    '    at File.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\transports\\file.js:190:34)\n' +
+    '    at ExceptionStream._write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\exception-stream.js:48:29)\n' +
+    '    at doWrite (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n' +
+    '    at DerivedLogger.ondata (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n' +
+    '    at DerivedLogger.emit (node:events:402:35)\n' +
+    '    at addChunk (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)',
+  exception: true,
+  date: 'Wed Jun 28 2023 23:59:21 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 11936,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 115490816,
+      heapTotal: 85278720,
+      heapUsed: 54384520,
+      external: 43165071,
+      arrayBuffers: 37300988
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440550 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+      function: 'writeAfterEnd',
+      line: 264,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+      function: 'PassThrough.Writable.write',
+      line: 300,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 34,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\transports\\file.js',
+      function: 'File.log',
+      line: 190,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js',
+      function: 'DerivedLogger.ondata',
+      line: 629,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'DerivedLogger.emit',
+      line: 402,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\readable-stream\\lib\\_stream_readable.js',
+      function: 'addChunk',
+      line: 279,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'winston custom format',
+  timestamp: 'Jun-28-2023 23:59:21'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Thu Jun 29 2023 00:01:53 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 10456,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 82251776,
+      heapTotal: 51462144,
+      heapUsed: 45559896,
+      external: 37159071,
+      arrayBuffers: 36214657
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440701 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:01:53'
+}
+{
+  error: {
+    error: Error: getaddrinfo ENOTFOUND api.cloudinary.com
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.cloudinary.com'
+    }
+  },
+  level: 'error',
+  message: 'unhandledRejection: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Thu Jun 29 2023 00:01:53 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 10456,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 83587072,
+      heapTotal: 51462144,
+      heapUsed: 46002328,
+      external: 37168686,
+      arrayBuffers: 36224232
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 440701 },
+  trace: [],
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:01:53'
+}
+{
+  error: C:\Users\Chris\Desktop\Personal_Projects\blog-app\controllers\blog.js:64
+          .populate("comments.comment_by", "username comment")
+          ^
+  
+  SyntaxError: Unexpected token '.'
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\Chris\Desktop\Personal_Projects\blog-app\routes\blog.js:1:104)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '.'\n" +
+    'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\controllers\\blog.js:64\n' +
+    '        .populate("comments.comment_by", "username comment")\n' +
+    '        ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\routes\\blog.js:1:104)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\controllers\\blog.js:64\n' +
+    '        .populate("comments.comment_by", "username comment")\n' +
+    '        ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '.'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\routes\\blog.js:1:104)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Thu Jun 29 2023 00:07:10 GMT-0700 (Pacific Daylight Time)',
+  process: {
+    pid: 10152,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.13.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 110120960,
+      heapTotal: 77639680,
+      heapUsed: 50587480,
+      external: 42175404,
+      arrayBuffers: 36886582
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 441018 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 104,
+      file: 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\routes\\blog.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:07:10'
+}

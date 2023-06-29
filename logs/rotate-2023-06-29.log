@@ -1,0 +1,24 @@
+{
+  message: 'E11000 duplicate key error collection: blog-api.blogs index: likes.like_by_1 dup key: { likes.like_by: null }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:00:06'
+}
+{
+  message: 'getaddrinfo ENOTFOUND api.cloudinary.com',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:01:53'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.blogs index: likes.like_by_1 dup key: { likes.like_by: null }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:01:53'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.blogs index: likes.like_by_1 dup key: { likes.like_by: null }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 00:02:41'
+}

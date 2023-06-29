@@ -9,6 +9,6 @@ module.exports = (req, res, next) => {
         req.user = user;
         next();
     } catch (error) {
-        res.status(401).send({ data: null, message: "Access Denied: No JWT TOKEN", success: false });
+        res.status(401).send({ data: null, message: "Access Denied: Failed to verify token", success: false });
     }
 }

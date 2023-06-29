@@ -1,12 +1,22 @@
 const { Blog } = require("../models/blog");
 const { User } = require("../models/user");
+const { upload_files } = require("../utils/cloudinary");
 const _ = require("lodash");
 
 const create_blog = async (req, res) => {
     const user = await User.findById(req.user._id);
     if(!user) return res.status(401).send({ data: null, message: "Access Denied!", success: false});
 
-    const blog = new Blog({...req.body, created_by: req.user._id });
+    let uploaded_files;
+    if(req.body.files.length > 0) {
+        uploaded_files = await upload_files(req.body.files);
+    }
+    const blog = new Blog({
+        title: req.body.title,
+        content: req.body.content,
+        media: uploaded_files?.map(img => ({ url: img.secure_url, public_id: img.public_id })) || [],
+        created_by: req.user._id
+    });
     await blog.save();
 
     res.status(201).send({
@@ -50,7 +60,7 @@ const comment_blog = async (req, res) => {
     const user = await User.findById(req.user._id);
     if(!user) return res.status(401).send({ data: null, message: "Access Denied!", success: false });
 
-    const blog = await Blog.findById(req.body.blog_id)
+    const blog = await Blog.findById(req.params.id);
         .populate("comments.comment_by", "username comment")
     if(!blog) return res.status(404).send({ data: null, message: "The resource does not exist!", success: false });
 
@@ -86,7 +96,7 @@ const like_blog = async (req, res) => {
 };
 
 const delete_blog = async (req, res) => {
-    const blog = await Blog.findByIdAndDelete(req.params.id);
+    const blog = await Blog.findOneAndDelete({ _id: req.params.id, created_by: req.user._id });
     if(!blog) return res.status(404).send({ data: null, message: "This resource does not exist!.", success: false });
 
     res.status(204).send({
@@ -97,7 +107,7 @@ const delete_blog = async (req, res) => {
 };
 
 const update_blog = async (req, res) => {
-    const blog = await Blog.findByIdAndUpdate(req.params.id, {
+    const blog = await Blog.findOneAndUpdate({ _id: req.params.id, created_by: req.user._id }, {
         $set: {
             title: req.body.title,
             description: req.body.description,

@@ -2,7 +2,8 @@ const Joi = require("joi");
 
 const blog_schema = {
     title: Joi.string().min(5).max(250).required(),
-    content: Joi.string().min(50).max(10000).required()
+    content: Joi.string().min(50).max(10000).required(),
+    files: Joi.array().items(Joi.string().required()),
 }
 
 const comment_schema = {

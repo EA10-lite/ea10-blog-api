@@ -3,8 +3,8 @@ const logger = require("./logger");
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret : process.env.CLOUDINARY_API_SECRET
+    api_key: process.env.CLOUDINARY_KEY,
+    api_secret : process.env.CLOUDINARY_SECRET
 });
 
 
@@ -24,9 +24,9 @@ const upload_files = async (paths) => {
     try {
         const uploadPromises = paths.map(imagePath => upload_file(imagePath));
         const uploadedImages = await Promise.all(uploadPromises);
-        console.log(uploadedImages);
+        return uploadedImages;
     } catch (error) {
-        console.error(err);
+        console.error(error);
         logger.error(error.message || "something failed while trying to uplodad files to cloudinary");
     }
 }

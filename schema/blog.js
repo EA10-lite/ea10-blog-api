@@ -1,7 +1,6 @@
 const Joi = require("joi");
 
 const blog_schema = {
-    created_by: Joi.objectId().required(),
     title: Joi.string().min(5).max(250).required(),
     description: Joi.string().min(50).max(10000).required()
 }

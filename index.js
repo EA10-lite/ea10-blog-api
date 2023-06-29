@@ -1,7 +1,8 @@
 require("dotenv").config();
 require("express-async-errors");
 
-const { specs, swaggerUi } = require("./swagger");
+const { specs, swaggerUi } = require("./utils/swagger");
+const { logger } = require("./utils/transport");
 const error = require("./middlewares/error");
 const express = require("express");
 const app = express();
@@ -18,5 +19,5 @@ app.use(error);
 
 const port = process.env.PORT || 4000;
 app.listen(port, ()=> {
-    console.log("now listening at port", port);
+    logger.info("listening for requests at port", port);
 });

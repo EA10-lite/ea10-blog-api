@@ -6,6 +6,12 @@ const validator = require("../middlewares/validator");
 const express = require("express");
 const router = express.Router();
 
+/**
+ * @swagger
+ * tags:
+ *   name: Blogs
+ *   description: API endpoints for managing blogs
+ */
 
 /**
  * @swagger
@@ -20,15 +26,19 @@ const router = express.Router();
  *         title:
  *           type: string
  *           description: Title of the blog post.
+ *           minLength: 5
+ *           maxLength: 250
  *         content:
  *           type: string
  *           description: Content of the blog post.
+ *           minLength: 50
+ *           maxLength: 10000
  *         media:
  *           type: array
  *           items:
  *              type: string
  *              format: url
- *           description: Author of the blog post.
+ *           description: Media files attached to the blog post.
  *       required:
  *         - title
  *         - content

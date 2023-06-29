@@ -11,7 +11,7 @@ const options = {
       contact: {
         name: "Emmanuel Chris",
         email: "emanuelanyigor@gmail.com",
-        url: "https://blog-api-g8u6.onrender.com"
+        url: "https://ea10.netlify.app/"
       },
       servers: [
         {

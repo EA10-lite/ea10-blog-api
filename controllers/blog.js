@@ -107,17 +107,24 @@ const delete_blog = async (req, res) => {
 };
 
 const update_blog = async (req, res) => {
-    const blog = await Blog.findOneAndUpdate({ _id: req.params.id, created_by: req.user._id }, {
-        $set: {
-            title: req.body.title,
-            description: req.body.description,
-            media: req.body.media
-        }
-    }, { new: true });
+    let blog = await Blog.findOne({ _id: req.params.id, created_by: req.user._id });
     if(!blog) return res.status(404).send({ data: null, message: "This resource does not exist!.", success: false });
 
-    res.status(204).send({
-        data: _.pick(blog, ["title"]),
+    let uploaded_files = [];
+    if(req.body.files.length > 0) {
+        uploaded_files = await upload_files(req.body.files);
+    }
+    
+    blog = await Blog.findOneAndUpdate({ _id: req.params.id, created_by: req.user._id }, {
+        $set: {
+            title: req.body.title,
+            content: req.body.content,
+            media: uploaded_files?.map(img => ({ url: img.secure_url, public_id: img.public_id })),
+        }
+    }, { new: true });
+
+    res.status(200).send({
+        data: _.pick(blog, ["title", "content", "media"]),
         message: "Blog updated successfully!",
         success: true 
     });

@@ -167,7 +167,7 @@ router.put("/set-new-password", [ validator(set_password_schema), auth ], set_ne
  *       '200':
  *         description: Reset password email sent successfully
  */
-router.get("/send-reset-password-email", validator(reset_password_schema), reset_password);
+router.post("/send-reset-password-email", validator(reset_password_schema), reset_password);
 
 /**
  * @swagger

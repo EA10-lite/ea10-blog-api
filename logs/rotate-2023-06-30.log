@@ -1,0 +1,90 @@
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:00:47'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:03:29'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:04:25'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:06:07'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:07:28'
+}
+{
+  message: 'email is not defined',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:25:30'
+}
+{
+  message: 'email is not defined',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:25:32'
+}
+{
+  message: 'Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:42:59'
+}
+{
+  message: 'Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:43:02'
+}
+{
+  message: `Cast to ObjectId failed for value "{ email: 'emanuelanyigor@gmail.com' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:44:23'
+}
+{
+  message: `Cast to ObjectId failed for value "{ email: 'emanuelanyigor@gmail.com' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:44:56'
+}
+{
+  message: `Cast to ObjectId failed for value "{ email: 'emanuelanyigor@gmail.com' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:48:17'
+}
+{
+  message: `Cast to ObjectId failed for value "{ email: 'emanuelanyigor@gmail.com' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 00:49:04'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\assets\\img2.j'",
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 01:04:57'
+}
+{
+  message: 'uploaded_files?.map is not a function',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-30-2023 01:13:13'
+}

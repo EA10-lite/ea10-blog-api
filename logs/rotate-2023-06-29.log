@@ -40,3 +40,15 @@
   label: 'winston custom format',
   timestamp: 'Jun-29-2023 22:56:52'
 }
+{
+  message: 'Unexpected string in JSON at position 42',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 23:58:32'
+}
+{
+  message: 'E11000 duplicate key error collection: blog-api.users index: username_1 dup key: { username: "ea10" }',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 23:59:36'
+}

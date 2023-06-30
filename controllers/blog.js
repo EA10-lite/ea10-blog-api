@@ -60,7 +60,7 @@ const comment_blog = async (req, res) => {
     const user = await User.findById(req.user._id);
     if(!user) return res.status(401).send({ data: null, message: "Access Denied!", success: false });
 
-    const blog = await Blog.findById(req.params.id);
+    const blog = await Blog.findById(req.params.id)
         .populate("comments.comment_by", "username comment")
     if(!blog) return res.status(404).send({ data: null, message: "The resource does not exist!", success: false });
 
@@ -86,7 +86,7 @@ const like_blog = async (req, res) => {
     if(is_liked_blog) return res.status(204).send();
 
     blog.likes.push({ like_by: req.user._id });
-    await post.save();
+    await blog.save();
 
     res.status(200).send({
         data: blog,

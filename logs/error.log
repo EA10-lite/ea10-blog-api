@@ -214,3 +214,21 @@
   label: 'winston custom format',
   timestamp: 'Jun-29-2023 00:02:41'
 }
+{
+  message: 'post is not defined',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 22:54:59'
+}
+{
+  message: 'post is not defined',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 22:56:17'
+}
+{
+  message: 'post is not defined',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: 'Jun-29-2023 22:56:52'
+}

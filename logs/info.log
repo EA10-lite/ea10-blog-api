@@ -344,3 +344,53 @@
   label: 'winston custom format',
   timestamp: 'Jun-30-2023 01:20:02'
 }
+{
+  level: 'error',
+  message: "failed to connect to mongodb Cannot create property 'Symbol(level)' on string 'connected to mongodb'",
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'connected to mongodb'\n" +
+    '    at DerivedLogger.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\logger.js:214:20)\n' +
+    '    at C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\startup\\db.js:7:27\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'winston custom format',
+  timestamp: 'Aug-10-2023 15:26:23'
+}
+{
+  level: 'error',
+  message: "failed to connect to mongodb Cannot create property 'Symbol(level)' on string 'connected to mongodb'",
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'connected to mongodb'\n" +
+    '    at DerivedLogger.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\logger.js:214:20)\n' +
+    '    at C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\startup\\db.js:7:27\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'winston custom format',
+  timestamp: 'Aug-10-2023 15:27:15'
+}
+{
+  level: 'error',
+  message: "failed to connect to mongodb Cannot create property 'Symbol(level)' on string 'connected to mongodb'",
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'connected to mongodb'\n" +
+    '    at DerivedLogger.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\logger.js:214:20)\n' +
+    '    at C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\startup\\db.js:7:27\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'winston custom format',
+  timestamp: 'Aug-10-2023 15:28:14'
+}
+{
+  level: 'error',
+  message: "failed to connect to mongodb Cannot create property 'Symbol(level)' on string 'connected to mongodb'",
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'connected to mongodb'\n" +
+    '    at DerivedLogger.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\logger.js:214:20)\n' +
+    '    at C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\startup\\db.js:7:27\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'winston custom format',
+  timestamp: 'Aug-10-2023 15:29:08'
+}
+{
+  level: 'error',
+  message: "failed to connect to mongodb Cannot create property 'Symbol(level)' on string 'connected to mongodb'",
+  stack: "TypeError: Cannot create property 'Symbol(level)' on string 'connected to mongodb'\n" +
+    '    at DerivedLogger.log (C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\node_modules\\winston\\lib\\winston\\logger.js:214:20)\n' +
+    '    at C:\\Users\\Chris\\Desktop\\Personal_Projects\\blog-app\\startup\\db.js:7:27\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'winston custom format',
+  timestamp: 'Aug-10-2023 15:30:26'
+}

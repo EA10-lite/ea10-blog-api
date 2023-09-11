@@ -26,20 +26,25 @@ const register = async(req, res)=> {
     user = new User({ ...req.body });
     user.password = await hash_password(user.password);
 
+    
     // send verification mail
-    const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET_KEY, { expiresIn: '1h'});
-    const mail_options = {
-        from: process.env.GMAIL_USERNAME,
-        to: user.email,
-        subject: 'Verify Account',
-        html: `<p>Please click <a href="http://localhost:3000/account-verify/${token}">here</a> to verify your account.</p>`,
-    };
-
-    await transport.sendMail(mail_options);
+    // const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET_KEY, { expiresIn: '1h'});
+    // const mail_options = {
+        //     from: process.env.GMAIL_USERNAME,
+        //     to: user.email,
+        //     subject: 'Verify Account',
+        //     html: `<p>Please click <a href="http://localhost:3000/account-verify/${token}">here</a> to verify your account.</p>`,
+        // };
+        
+        // await transport.sendMail(mail_options);
     await user.save();
+        const token = user.generateAuthToken();
 
     res.status(201).send({
-        data: _.pick(user, ['email', 'username']),
+        data: {
+            token: token,
+            user: _.pick(user, ['name'])
+        },
         message: "Account successfully created. Please check your Email to verify your account.",
         success: true,
     });
